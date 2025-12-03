@@ -1,0 +1,12 @@
+@keyframes neonPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px #06B6D4) drop-shadow(0 0 20px #06B6D4);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #06B6D4) drop-shadow(0 0 40px #06B6D4);
+  }
+}
+
+.neon-animation {
+  animation: neonPulse 2s ease-in-out infinite;
+}

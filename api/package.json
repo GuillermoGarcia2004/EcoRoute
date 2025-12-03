@@ -1,0 +1,26 @@
+{
+  "name": "api_ecoroute",
+  "version": "1.0.0",
+  "description": "API created with node.js for my final project for my advanced DAW degree",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon v1/index.js"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Guillermo García Gómez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "nodemailer": "^7.0.10"
+  }
+}
